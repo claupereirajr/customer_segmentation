@@ -8,3 +8,29 @@
 4. Clustering: To identify customer segments, you'll need to use a clustering algorithm, such as K-Means or Hierarchical Clustering. You'll want to experiment with different numbers of clusters, and use techniques such as elbow plots and silhouette scores to determine the optimal number of clusters.
 5. Visualization and Analysis: Once you have identified the customer segments, you can use data visualization tools, such as matplotlib or seaborn, to explore the characteristics of each segment. You can then use this information to inform targeted marketing campaigns for each segment.
 6. Model Deployment: To make the results of the customer segmentation analysis available to the retail business, you can use a dashboard tool, such as Tableau or PowerBI, to create a visual representation of the segments and their characteristics. You can also use the results to inform product recommendations, email marketing campaigns, and other customer-facing initiatives.
+
+## Dataset
+
+It's provide by the client of the e-commerce located in Curitiba, Brazil.
+
+**Columns Desc:**
+
+- orderID;
+- orderDate;
+- clienteID;
+- CEP;
+- estado;
+- bairro;
+- cidade;
+- rua;
+- numero;
+- endereco;
+- gender;
+- age;
+- plataform;
+- total;
+- cupon
+
+## Extra
+
+Create a Spending Score of clients (1-10), by the value of spend and the number of products.
